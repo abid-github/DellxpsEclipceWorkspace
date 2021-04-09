@@ -1,0 +1,27 @@
+package com.algo.ds;
+
+public class ProductExceptSelf {
+
+	static int[] Product(int[] input) {
+
+		int n = input.length;
+		int[] output = new int[n];
+
+		int[] left_product = new int[n];
+		int[] right_product = new int[n];
+		
+		
+		for ( int i =0; i<      )
+		{
+			
+		}
+
+		return output;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

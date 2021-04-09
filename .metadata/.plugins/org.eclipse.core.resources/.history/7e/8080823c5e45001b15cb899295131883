@@ -1,0 +1,14 @@
+package com.collection.programming;
+
+public class FirstDuplicate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int[] a = { 3, 4, 5, 4, 10, 12, 10 };
+		
+		
+	}
+
+}

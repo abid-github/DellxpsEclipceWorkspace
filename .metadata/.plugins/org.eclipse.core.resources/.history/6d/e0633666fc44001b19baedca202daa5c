@@ -1,0 +1,18 @@
+package com.collection.programming;
+
+public class FindDuplicatesArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr = { 3, 2, 3, 14, 18, 20, 3, 1 ,2};
+		
+		
+		
+
+		
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.collection.programming;
+
+public class ImpCommonElementsBtwTwoArrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr1= {4,2,3,5,6,7,4};
+		int[] arr2= {5,6,7,6,10,20,33};
+
+	}
+
+}

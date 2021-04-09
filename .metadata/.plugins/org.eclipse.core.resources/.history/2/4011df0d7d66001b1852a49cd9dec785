@@ -1,0 +1,38 @@
+package com.array;
+
+/**
+ * Time Complexity - worst O(nlogn) Best-O(nlogn). Like QuickSort, Merge Sort is
+ * a Divide and Conquer algorithm. It divides the input array into two halves,
+ * calls itself for the two halves, and then merges the two sorted halves. The
+ * merge() function is used for merging two halves. The merge(arr, l, m, r) is a
+ * key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges
+ * the two sorted sub-arrays into one. See the following C implementation for
+ * details.
+ * 
+ * @author abids
+ *
+ */
+public class SortMerge {
+
+	int[] array;
+	int[] tempMergeArr;
+	int lenghth;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 int[] inputArr = {48,36,13,52,19,94, 21};
+
+	 SortMerge ms = new SortMerge();
+
+	}
+
+	public void sort(int[] inputArr)
+
+	{
+		this.array = inputArr;
+		this.lenghth = inputArr.length;
+
+	}
+
+}

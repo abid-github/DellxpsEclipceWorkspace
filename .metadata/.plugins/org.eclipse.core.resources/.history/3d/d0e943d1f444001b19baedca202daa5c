@@ -1,0 +1,41 @@
+package com.collection.programming;
+
+import java.util.HashMap;
+
+public class AllUniqueCharacters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String x = "Apple";
+
+		char[] xa = x.toCharArray();
+
+		int size = xa.length;
+
+		HashMap<Character, Integer> hp = new HashMap<>();
+
+		int i = 0;
+		//int temp;
+
+		while (i != size)
+
+		{
+			if (hp.containsKey(xa[i]) == false)
+
+			{
+				hp.put(xa[i], 1);
+
+			}
+
+			else 
+			{
+				int temp =hp.get(xa[i]);
+				
+				int value = 
+			
+			}
+
+	}
+
+}

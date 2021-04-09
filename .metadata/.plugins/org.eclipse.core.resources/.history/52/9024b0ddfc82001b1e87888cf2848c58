@@ -1,0 +1,36 @@
+package com.algo.ds;
+
+import java.util.Arrays;
+
+public class SortedSquaredArray {
+
+	static int[] sortedsqarr(int[] ina) {
+
+		int l = 0;
+		int h = ina.length - 1;
+		int[] result = new int[ina.length];
+
+		for (int i = h; i >= 0; i--) {
+			if (Math.abs(ina[l]) > ina[h]) {
+				result[i] = ina[l] * ina[l];
+				l++;
+			} else {
+				result[i] = ina[h] * ina[h];
+				h--;
+			}
+		}
+		return result;
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] a = { -5, -3, -1, 2, 4 };
+		SortedSquaredArray.sortedsqarr(a);
+
+		System.out.println(Arrays.toString(SortedSquaredArray.sortedsqarr(a)));
+
+	}
+
+}

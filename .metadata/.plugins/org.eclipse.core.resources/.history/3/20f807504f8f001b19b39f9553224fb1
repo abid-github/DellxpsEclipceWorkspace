@@ -1,0 +1,45 @@
+package com.algo.ds;
+
+public class SubarraysOfSumK {
+	/*
+	 * Returns true if the there is a subarray of arr[] with a sum equal to 'sum'
+	 * otherwise returns false. Also, prints the result
+	 */
+	void subArraySum(int arr[], int n, int K) {
+
+		int flag = 0;
+
+		// Pick a starting point
+		for (int i = 0; i < n; i++) {
+
+			int curr_sum = 0;
+			// try all subarrays starting with 'i'
+
+			for (int j = i; j < n; j++) {
+
+				curr_sum = curr_sum + arr[j];
+				if (curr_sum == K) {
+					//int p = j - 1;
+					System.out.println("Sum found between indexes " + i + " and " + j);
+					// return 1;
+					flag++;
+				
+				if (curr_sum > K || j == n)
+					break;
+
+			}
+		}
+		System.out.println("total subarrays" + flag);
+		if (flag == 0)
+			System.out.println("No subarray found");
+		// return 0;
+	}
+
+	public static void main(String[] args) {
+		SubarraysOfSumK arraysum = new SubarraysOfSumK();
+		int arr[] = { 23, 15, 2, 4, 8, 9, 5, 10 };
+		int n = arr.length;
+		int sum = 23;
+		arraysum.subArraySum(arr, n, sum);
+	}
+}

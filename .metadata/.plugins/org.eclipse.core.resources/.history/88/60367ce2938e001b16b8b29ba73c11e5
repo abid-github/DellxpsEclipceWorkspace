@@ -1,0 +1,26 @@
+package com.algo.ds;
+
+import java.util.Arrays;
+
+public class MergeIntervals {
+
+	static int[][] merge(int[][] intervals) {
+
+		if (intervals.length <= 1) {
+
+			return intervals;
+		}
+		
+		
+		Arrays.sort(intervals, (arr1 ,arr2)-> Integer.compare(arr1[0], arr2[0]));
+		
+
+		return intervals;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

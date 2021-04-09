@@ -1,0 +1,24 @@
+package com.stack;
+
+import java.util.Stack;
+
+public class ScoreOfParentheses {
+
+	static int score(String s)
+
+	{
+		int sc = 0;
+		
+		Stack < Character > st = new Stack <> ();
+		
+		
+
+		return sc;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

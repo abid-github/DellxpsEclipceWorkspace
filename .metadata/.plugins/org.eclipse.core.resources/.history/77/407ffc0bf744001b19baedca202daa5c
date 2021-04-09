@@ -1,0 +1,60 @@
+package com.collection.programming;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class AllUniqueCharacters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String x = "Apple";
+
+		char[] xa = x.toCharArray();
+
+		int size = xa.length;
+
+		HashMap<Character, Integer> hp = new HashMap<>();
+
+		int i = 0;
+		// int temp;
+
+		while (i != size)
+
+		{
+			if (hp.containsKey(xa[i]) == false)
+
+			{
+				hp.put(xa[i], 1);
+
+			}
+
+			else {
+				int temp = hp.get(xa[i]);
+
+				int value = temp + 1;
+				hp.put(xa[i], value);
+
+			}
+
+			i++;
+
+		}
+		System.out.println(hp);
+		
+		
+		Set < Map.Entry< Character , Integer >> st=  hp.entrySet();
+		
+		for ( Map.Entry< Character , Integer > data : st )
+			
+			
+		{
+			System.out.println( "Occurance of character " +data.getKey()+""+ data.getValue ()+" times " );
+			
+		}
+		
+		
+
+	}
+}

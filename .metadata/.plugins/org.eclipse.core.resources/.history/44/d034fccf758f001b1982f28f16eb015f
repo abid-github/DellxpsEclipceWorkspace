@@ -1,0 +1,35 @@
+package com.array;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+//unique from from array
+
+public class UniqeValuesInArray {
+
+	public static void main(String[] args) {
+
+		String[] sa = { "abid", "abid", "mango", "grapes", "apple", "abid", "abid", "mango" };
+
+		ArrayList<String> al = new ArrayList<String>();
+		HashSet<String> hst1 = new HashSet<String>();
+		
+		for (String data : sa) {
+			//hst1.add(data);
+			
+			if ( !hst1.contains(data))
+				
+			{
+				hst1.add(data);
+			}
+			else 
+				
+				al.add(data);
+		}
+
+		//System.out.println("Unique values" + hst);
+		System.out.println("Unique values" + hst1);
+		System.out.println("duplicates values" + al);
+
+	}
+}

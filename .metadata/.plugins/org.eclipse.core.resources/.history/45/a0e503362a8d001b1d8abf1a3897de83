@@ -1,0 +1,29 @@
+package com.algo.ds;
+
+public class TripletsWithZeroSum {
+
+	static void  findTriplets ( int []a, int n)
+	{
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		  int arr[] = {0, -1, 2, -3, 1};
+		    int n =arr.length;
+		    findTriplets(arr, n);
+		
+		
+
+	}
+
+}

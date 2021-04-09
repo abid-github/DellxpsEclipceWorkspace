@@ -1,0 +1,36 @@
+package com.array;
+
+public class MarrayMaxNumber {
+
+	public static void main(String[] args) {
+		
+	
+		
+			int abc[][] = { { 1, 2, 3 }, { 45, 29 }, {  1, 4, 1,1 } };
+
+			int max = abc[0][0];
+			
+			System.out.println(abc.length);
+			System.out.println(abc[0].length);
+			System.out.println(abc[1].length);
+			System.out.println(abc[2].length);
+			
+			
+			for (int i = 0; i < abc.length; i++) {
+				
+				 for(int j = 0; j < abc[i].length; j++)
+					 
+				//for (int j = 0; j < 3; j++)
+
+				{
+					if (abc[i][j] > max)
+						max = abc[i][j];
+				}
+
+			}
+
+			System.out.println(max);
+
+		}
+
+	}

@@ -1,0 +1,24 @@
+package com.collection.programming;
+
+import java.util.HashMap;
+
+public class AllUniqueCharacters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String x = "Apple";
+		
+		char[] xa = x.toCharArray();
+		
+		HashMap<Integer , String > hp = new HashMap<>();
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

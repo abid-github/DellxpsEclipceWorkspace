@@ -1,0 +1,33 @@
+package com.algo.ds;
+
+public class MergeIntervals {
+
+	
+	static  int [][] merge( int [][]intervals )
+	{
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return intervals;
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		
+
+	}
+
+}
