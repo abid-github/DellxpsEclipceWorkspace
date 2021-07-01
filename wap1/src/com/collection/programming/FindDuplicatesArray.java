@@ -1,7 +1,8 @@
 package com.collection.programming;
 
 import java.util.HashMap;
-import java.util.Map.Entry;
+import java.util.Map;
+
 
 public class FindDuplicatesArray {
 
@@ -34,10 +35,11 @@ public class FindDuplicatesArray {
 
 		}
 		System.out.println(hp);
+		System.out.println ( hp.keySet());
 
 		//Set<Entry<Integer, Integer>> st = hp.entrySet();
 
-		for (Entry<Integer, Integer> data : hp.entrySet())
+		for (Map.Entry<Integer, Integer> data : hp.entrySet())
 
 		{
 			if (data.getValue() > 1)

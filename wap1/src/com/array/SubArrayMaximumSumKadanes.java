@@ -19,14 +19,14 @@ public class SubArrayMaximumSumKadanes {
 
 			{
 				max_so_far = max_ending_here;
-				//start = temp;
-				//end = i;
+				start = temp;
+				end = i;
 			}
 
 			if (max_ending_here < 0) {
 
 				max_ending_here = 0;
-				//temp = i + 1;
+				temp = i + 1;
 
 			}
 

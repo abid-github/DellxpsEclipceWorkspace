@@ -7,6 +7,7 @@ public class SubArrayLongestConsecutive {
 	static int findLongestConseqSubseq(int arr[], int n) {
 		HashSet<Integer> S = new HashSet<Integer>();
 		int longestStreak = 0;
+
 		// Hash all the array elements
 		for (int i = 0; i < n; ++i)
 			S.add(arr[i]);
@@ -29,15 +30,16 @@ public class SubArrayLongestConsecutive {
 
 		{
 			if (!S.contains(el - 1)) {
-				//int currnum = el;
+				// int currnum = el;
 				int currstreak = 1;
 				while (S.contains(el + 1)) {
-					//currnum++;
+					// currnum++;
 					el++;
 					currstreak++;
 				}
 
 				longestStreak = Math.max(currstreak, longestStreak);
+
 			}
 
 		}

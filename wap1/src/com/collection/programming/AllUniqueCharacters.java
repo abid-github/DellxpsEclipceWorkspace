@@ -11,6 +11,7 @@ public class AllUniqueCharacters {
 
 		String x = "abcb";
 		char[] xa = x.toCharArray();
+
 		// int size = xa.length;
 		HashMap<Character, Integer> hp = new HashMap<>();
 		for (char data : xa) {
@@ -36,8 +37,7 @@ public class AllUniqueCharacters {
 		 */
 
 		System.out.println(hp);
-		
-		
+
 		System.out.println(hp.keySet());
 		System.out.println(hp.values());
 

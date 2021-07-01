@@ -36,7 +36,7 @@ public class SubArraysOfSumK {
 		SubArraysOfSumK arraysum = new SubArraysOfSumK();
 		int arr[] = { 23, 15, 2, 4, 8, 9, 5, 10 };
 		int n = arr.length;
-		int sum = 23;
+		int sum = 24;
 		arraysum.subArraySum(arr, n, sum);
 	}
 }

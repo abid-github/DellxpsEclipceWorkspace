@@ -25,6 +25,7 @@ public class PrimeFactors {
 		if (number > 2)
 
 		{
+			
 			System.out.println(number);
 		}
 	}

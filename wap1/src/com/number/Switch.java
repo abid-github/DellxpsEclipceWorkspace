@@ -6,8 +6,12 @@ import java.util.Scanner;
 
 public class Switch {
 
+	
+	
 	public static void main(String[] args) {
 
+		
+	
 		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
 		String cont;
@@ -48,7 +52,7 @@ public class Switch {
 				System.out.println("not valid operation");
 
 			}
-			System.out.println("do you want to continue ,plz press Yor N");
+			System.out.println("do you want to continue ,plz press Yor Y");
 			cont = scn.next();
 		} while (cont.equalsIgnoreCase("y"));
 

@@ -23,6 +23,8 @@ public class HasmapIterator {
 
 		Set<Map.Entry<Integer, String>> set = hmap.entrySet();
 		System.out.println(set);
+		
+	
 
 		Iterator<Map.Entry<Integer, String>> itr = set.iterator();
 

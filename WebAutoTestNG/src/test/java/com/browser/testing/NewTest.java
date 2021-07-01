@@ -11,10 +11,10 @@ import org.testng.annotations.AfterTest;
 
 public class NewTest {
 
-	WebDriver driver =null;
+	WebDriver driver ;
 
 	
-	@Parameters("browserName")
+	@Parameters({"browserName"})
 	@BeforeTest
 	public void setUp(String browserName)
 

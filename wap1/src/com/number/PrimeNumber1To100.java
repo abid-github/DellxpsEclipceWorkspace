@@ -9,6 +9,7 @@ public class PrimeNumber1To100 {
 		//0 and 1 are not prime number , and 2 is only even prime number.
 
 		int max = 100;
+		
 		System.out.println("Prime numbers between 1 and " + max);
 
 		for (int i = 2; i <= max; i++) {

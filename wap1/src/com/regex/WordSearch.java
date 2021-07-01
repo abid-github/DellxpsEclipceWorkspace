@@ -11,11 +11,11 @@ public class WordSearch {
 		// Creation of File Descriptor for input file
 		File f1 = new File("D:\\EclipseWorkSpace\\wap1\\src\\com\\regex\\inputword.txt");
 		// Creation of BufferedReader object
+		//BufferedReader br = new BufferedReader(new FileReader("D:\\EclipseWorkSpace\\wap1\\src\\com\\regex\\inputword.txt"));
 		BufferedReader br = new BufferedReader(new FileReader(f1));
-
 		String line = "";
 		// String line = br.readLine();
-		String input = "Java";
+		String input = "such";
 		int count = 0;
 
 		while ((line = br.readLine()) != null) {

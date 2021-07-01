@@ -13,14 +13,28 @@ public class DuplicateWords {
 
 	public static void main(String[] args) {
 
-		String str = "good boy and good girl and all good we all love each other";
+		String str = "good hello good one two yes yes no ";
+		
 		String[] a = str.split(" ");
-		// System.out.println(Arrays.toString(a));
+		
+		System.out.println(a.length);
+		
+		String word = Arrays.toString(a);
+		
+		System.out.println(word);
+		
+		System.out.println(word.length());
+		
+		System.out.println(Arrays.toString(a));
 		Map<String, Integer> hmap = new HashMap<>();
+		
 		for (String data : a) {
-			if (hmap.containsKey(data) == false) {
+			if (hmap.containsKey(data) == false)
+			{
 				hmap.put(data, 1);
-			} else {
+			} 
+			else 
+			{
 				hmap.put(data, hmap.get(data) + 1);
 			}
 			// hmap.put(data, hmap.getOrDefault(data, 0)+1);

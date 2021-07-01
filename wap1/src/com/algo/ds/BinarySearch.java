@@ -1,7 +1,11 @@
 package com.algo.ds;
 
-public class BinarySearch {
+public class BinarySearch  {
 	
+	
+	
+
+
 	//Sorted and duplicates not allowed
 	// Returns index of x if it is present in arr[],
 	// else return -1

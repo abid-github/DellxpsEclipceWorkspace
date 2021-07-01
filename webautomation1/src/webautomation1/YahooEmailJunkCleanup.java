@@ -22,6 +22,8 @@ public class YahooEmailJunkCleanup {
 
 		WebElement els = driver.findElement(By.xpath("//div[@id='login-landing']"));
 		System.out.println(els.getText());
+		
+	
 
 		System.out.println("******1");
 
@@ -38,7 +40,7 @@ public class YahooEmailJunkCleanup {
 		WebElement element1 = driver.findElement(By.xpath("//input[@type='submit']"));
 		js.executeScript("arguments[0].click();", element1);
 
-		driver.findElement(By.xpath("//input[@type='password' and @name='password']")).sendKeys("Imp@cc098");
+		driver.findElement(By.xpath("//input[@type='password' and @name='password']")).sendKeys("xyz");
 		WebElement element2 = driver.findElement(By.name("verifyPassword"));
 		js.executeScript("arguments[0].click();", element2);
 

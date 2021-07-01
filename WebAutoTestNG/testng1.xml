@@ -2,23 +2,20 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="2">
 
-
 	<test name="RunOnChrome">
 
 		<parameter name="browserName" value="chrome"></parameter>
-		<!-- <parameter name="browserName" value="chrome"/> -->
-
 
 		<classes>
 			<class name="com.browser.testing.NewTest" />
 		</classes>
 	</test>
+	
 	<test name="RunOnFirefox">
 		<parameter name="browserName" value="firefox"></parameter>
 		<classes>
 			<class name="com.browser.testing.NewTest" />
 		</classes>
 	</test>
-
 
 </suite> 

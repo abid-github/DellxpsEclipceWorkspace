@@ -9,6 +9,9 @@ public class CountDifferentSymbols {
 		String str = "I Love  YOU $=#@!*%'>? YOU LOVE ME";
 		str = str.toUpperCase();
 		str = str.replace(" ", "");
+		//str.trim();
+		str.strip();
+		
 		char[] sa = str.toCharArray();
 		int vcount = 0;
 		int concount = 0;

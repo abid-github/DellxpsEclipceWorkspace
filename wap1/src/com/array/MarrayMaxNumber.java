@@ -19,7 +19,8 @@ public class MarrayMaxNumber {
 		 * 
 		 * for (int j = 0; j < m[i].length; j++)
 		 * 
-		 * { if (m[i][j] > max) max = m[i][j]; }
+		 * { if (m[i][j] > max) 
+		 *     max = m[i][j]; }
 		 * 
 		 * }
 		 */

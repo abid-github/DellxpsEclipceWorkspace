@@ -9,6 +9,7 @@ public class MarrayChallenge {
 		 */
 
 		int[][] a = { { 10, 5, 11 }, { 2, 25, 20 }, { 4, 11, 1 } };
+		//int[][][] arr = { { { 1, 2 }, { 3, 4 } }, { { 5, 6 }, { 7, 8 } } };
 
 		int min = a[0][0];
 		int cm = 0;

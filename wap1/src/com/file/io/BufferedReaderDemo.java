@@ -13,14 +13,14 @@ public class BufferedReaderDemo {
 
 		BufferedReader br = new BufferedReader(fr);
 
-		String line = br.readLine();
-
-		while (line != null)
+		//String line = br.readLine();
+		String line ="";
+		while ((line=br.readLine())!= null)
 
 		{
-
+			
 			System.out.println(line);
-			line = br.readLine();
+			//line = br.readLine();
 		}
 
 		br.close();

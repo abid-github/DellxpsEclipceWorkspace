@@ -30,18 +30,19 @@ public class SherwinWilliam {
 
 		driver.get("https://www.sherwin-williams.com/homeowners/products");
 
-		driver.findElement(By.xpath("//button[text()='Sign In']"))
-		
-		.click();
-		driver.findElement(By.xpath("//input[contains (@id, 'Header_Global')][@type='email']"))
+		driver.findElement(By.xpath("//button[text()='Sign In']")).click();
+		driver.findElement(By.xpath("//input[@name='username']"))
 				.sendKeys("abid.railtel@gmail.com");
-		driver.findElement(By.xpath("//input[@ng-model='ctrl.data.logonPassword']")).sendKeys("abc123");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("abc123");
 
-		WebElement submit = driver.findElement(By.xpath("//span[@class='label' and text()='Sign In']"));
+		WebElement submit = driver.findElement(By.xpath("//input[@type='submit']"));
         //click not working for chrome, but js and action class helped .
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.elementToBeClickable(submit));
 		submit.click();
+		
+		
+		
 		// submit.sendKeys(Keys.ENTER);
 
 		// Actions action = new Actions(driver);

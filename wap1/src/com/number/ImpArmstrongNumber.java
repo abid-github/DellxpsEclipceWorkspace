@@ -24,11 +24,12 @@ public class ImpArmstrongNumber {
 
 		while (temp1 != 0) {
 			temp1 = temp1 / 10;
+			//System.out.println(temp1);
 
 			length = length + 1;
 		}
 
-		// System.out.println(length);
+		 //System.out.println(length);
 
 		int temp2 = number;
 

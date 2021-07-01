@@ -6,7 +6,9 @@ public class RotationalOrNot {
 
 		String originalString = "PEACOACK";
 		String keyString = "EACOACKP";
-
+		
+		
+		
 		originalString = originalString.concat(originalString);
 
 		if (originalString.contains(keyString))

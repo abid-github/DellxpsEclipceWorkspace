@@ -27,6 +27,9 @@ public class ProductExceptSelf {
 		{
 			right_product[i] = input[i + 1] * right_product[i + 1];
 		}
+		
+		System.out.println(Arrays.toString(left_product));
+		System.out.println(Arrays.toString(right_product));
 
 		for (int i = 0; i < n; i++) {
 			output[i] = left_product[i] * right_product[i];
@@ -40,6 +43,7 @@ public class ProductExceptSelf {
 
 		int[] a = { 1, 4, 3, 10 };
 
+	
 		System.out.println(Arrays.toString(product(a)));
 
 	}

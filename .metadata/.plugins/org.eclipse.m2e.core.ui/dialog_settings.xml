@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\EclipseWorkSpace\EquifaxExcercise1"/>
+			<item value="D:\EclipseWorkSpace\SeleniumTest"/>
 			<item value="D:\EclipseWorkSpace\wap1"/>
 			<item value="D:\"/>
 			<item value="D:\EclipseWorkSpace\WebAutoTestNG"/>
@@ -50,13 +52,20 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="cocm.qa.equifax"/>
 			<item value="com.test"/>
+			<item value="com.equifax.selenium.test"/>
+			<item value="com.equifex.excercise1"/>
 			<item value="abc.com"/>
 			<item value="xyz"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="EquifaxExcericise2"/>
+			<item value="Test1"/>
+			<item value="EquifaxExcercise1"/>
+			<item value="SeleniumTest"/>
 			<item value="test123"/>
 			<item value="123"/>
 			<item value="prj"/>
